@@ -1,0 +1,55 @@
+#id-1 {
+  background-color: green;
+}
+#id-2 {
+  background-color: red;
+}
+#id-3 {
+  background-color: rgb(86, 103, 126);
+}
+#id-4 {
+  background-color: rgb(15, 62, 126);
+}
+
+.contaniner {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.f-img {
+  width: 200px;
+  size: 200px;
+  margin: 18px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 270px;
+  margin: 8px;
+  font-variant-position: sub;
+  font-size: small;
+}
+
+.c-img {
+  width: 100%;
+  height: 100px;
+}
+
+.navbackground-img {
+  background-image: url();
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  padding: 28px;
+}
