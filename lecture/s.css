@@ -45,11 +45,38 @@
   height: 100px;
 }
 
-.navbackground-img {
-  background-image: url();
+.headsize {
+  width: 1200px;
+  height: 120px;
+  background-color: rgb(42, 110, 165);
+}
+
+.h-img {
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
   background-position: center;
-  padding: 28px;
+}
+
+.size {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: chocolate;
+  border: 8px solid saddlebrown;
+  font: size 23px;
+}
+
+button {
+  background-color: rgb(238, 255, 0);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
 }
