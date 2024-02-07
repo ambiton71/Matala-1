@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AmitBitonWeb</title>
+    <link rel="stylesheet" href="Portfolio.css" />
+  </head>
+
+  <body style="background-color: beige">
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hidesidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li><a href="HomeAssigment_page1.html" class="navnow">Home</a></li>
+          <li><a href="HomeAssigment_page2.html">About</a></li>
+          <li><a href="HomeAssigment_page3.html">Skils</a></li>
+          <li><a href="HomeAssigment_page4.html">Projects</a></li>
+        </ul>
+        <ul>
+          <li class="hideonmoblie">
+            <a href="HomeAssigment_page1.html">Home</a>
+          </li>
+          <li class="hideonmoblie">
+            <a href="HomeAssigment_page2.html">About</a>
+          </li>
+          <li class="hideonmoblie">
+            <a href="HomeAssigment_page3.html">Skils</a>
+          </li>
+          <li class="hideonmoblie">
+            <a href="HomeAssigment_page4.html">Projects</a>
+          </li>
+          <li class="menu-button" onclick="showsidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <script>
+      function showsidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hidesidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+
+    <section class="Home">
+      <div>
+        <img src="./portphoto.jpg" class="Portfolioimage" />
+      </div>
+      <div class="content" class="indexp">
+        <h2>Hi, i'm <span>Amit Biton</span></h2>
+        <h4>Industrial and management engineer</h4>
+        <p class="Phome">
+          Welcome to my personal website.<br />
+          On this website you can get personal information about me, <br />my
+          skills and projects I have done.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
