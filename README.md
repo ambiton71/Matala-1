@@ -1,0 +1,2 @@
+On my website you will get a short summary of who I am, stages in my life, and projects I have done.
+The assignment was interesting and I learned a lot of new things due to the challenges I encountered such as: the design of the page for the cell phone (media), the design of the side menu for the cell phone menu and the design of the menu for the computer (sidebar), arrangement and proper design of a page so that it looks as good as possible.
